@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Caldwell Career Consulting</title>
+    <meta name="description" content="Reach Caldwell Career Consulting to start a confidential executive search or a career conversation." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="agency-pages.css" />
+    <link rel="stylesheet" href="page-media.css" />
+    <link rel="stylesheet" href="mobile-fixes.css" />
+    <link rel="icon" type="image/jpeg" href="logo.jpeg" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">Caldwell <span>Career</span> Consulting</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="employers.html">Employers</a>
+          <a href="candidates.html">Candidates</a>
+          <a href="career-services.html">Services</a>
+          <a href="how-we-work.html">How It Works</a>
+          <a href="global-reach.html">Global Reach</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <a class="nav-cta" href="mailto:jonathan@caldwellcareerconsulting.com">Email Jonathan</a>
+        <button class="mobile-toggle" type="button" aria-expanded="false" aria-label="Toggle menu">☰</button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="employers.html">Employers</a>
+          <a href="candidates.html">Candidates</a>
+          <a href="career-services.html">Services</a>
+          <a href="how-we-work.html">How It Works</a>
+          <a href="global-reach.html">Global Reach</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="page-header-card">
+            <div class="small-copy">Contact</div>
+            <h1 class="section-heading">Let's start a conversation.</h1>
+            <p class="lead">Whether you're a company beginning a confidential search or an executive exploring your next move, the first conversation with Caldwell Career Consulting is always personal — never a form disappearing into a queue.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container contact-wrap">
+          <div class="panel-dark">
+            <div class="small-copy" style="color: rgba(255,255,255,0.7);">Contact details</div>
+            <h2 class="section-heading" style="font-size: clamp(2rem, 3vw, 2.8rem); margin-top: 0.8rem; color: white;">Jonathan Caleb</h2>
+            <p style="color: rgba(255,255,255,0.8); margin-top: 0.5rem;">Founder &amp; Principal Consultant</p>
+            <a href="mailto:jonathan@caldwellcareerconsulting.com" style="display:inline-block; margin-top:1rem; color:white; font-weight:700;">jonathan@caldwellcareerconsulting.com</a>
+            <div class="pill-list" style="margin-top:1.6rem;">
+              <span class="pill" style="background: rgba(255,255,255,0.08); color: white;">United States</span>
+              <span class="pill" style="background: rgba(255,255,255,0.08); color: white;">United Kingdom</span>
+              <span class="pill" style="background: rgba(255,255,255,0.08); color: white;">Europe</span>
+            </div>
+          </div>
+
+          <div class="panel-light">
+            <form data-form>
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="company">Company Name</label>
+                  <input id="company" name="company" required type="text" placeholder="Acme Holdings" />
+                  <div class="error-message"></div>
+                </div>
+                <div class="form-field">
+                  <label for="name">Your Name &amp; Title</label>
+                  <input id="name" name="name" required type="text" placeholder="Jane Smith, Chief People Officer" />
+                  <div class="error-message"></div>
+                </div>
+                <div class="form-field">
+                  <label for="email">Business Email</label>
+                  <input id="email" name="email" required type="email" placeholder="jane@company.com" />
+                  <div class="error-message"></div>
+                </div>
+                <div class="form-field">
+                  <label for="role">Role Being Hired For</label>
+                  <input id="role" name="role" required type="text" placeholder="Chief Operating Officer" />
+                  <div class="error-message"></div>
+                </div>
+                <div class="form-field">
+                  <label for="region">Region of Hire</label>
+                  <select id="region" name="region">
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+                    <option>Continental Europe</option>
+                    <option>UAE</option>
+                    <option>Global</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="timeline">Target Start Timeline</label>
+                  <select id="timeline" name="timeline">
+                    <option>Immediate</option>
+                    <option>30–60 Days</option>
+                    <option>60–90 Days</option>
+                    <option>3–6 Months</option>
+                    <option>Exploratory</option>
+                  </select>
+                </div>
+                <div class="form-field full">
+                  <label for="context">Additional Context</label>
+                  <textarea id="context" name="context" rows="5" required placeholder="Tell us about the role, the business challenge, and what success would look like."></textarea>
+                  <div class="error-message"></div>
+                </div>
+              </div>
+              <button class="button-primary" type="submit" style="margin-top:1.2rem; width:100%;">Submit Search Request</button>
+            </form>
+            <div class="success-box">Thank you — your inquiry has been received. A Caldwell team member will follow up personally within one business day.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-surface">
+        <div class="container">
+          <div class="small-copy">What happens after you reach out</div>
+          <h2 class="section-heading">The process is simple.</h2>
+          <div class="timeline" style="margin-top: 2rem;">
+            <div class="timeline-step"><h4>Step 1</h4><p>Your message is reviewed personally by our team.</p></div>
+            <div class="timeline-step"><h4>Step 2</h4><p>You will hear back within one business day with a proposed time for an initial conversation.</p></div>
+            <div class="timeline-step"><h4>Step 3</h4><p>The initial conversation is exploratory and carries no obligation — it is the right place to understand fit.</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <h4>Caldwell Career Consulting</h4>
+            <p>Executive Search • Career Advisory • Global Talent Strategy</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="employers.html">Employers</a></li>
+              <li><a href="candidates.html">Candidates</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Services</h4>
+            <ul>
+              <li><a href="career-services.html">Services</a></li>
+              <li><a href="how-we-work.html">How It Works</a></li>
+              <li><a href="global-reach.html">Global Reach</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Reach out</h4>
+            <ul>
+              <li><a href="mailto:jonathan@caldwellcareerconsulting.com">jonathan@caldwellcareerconsulting.com</a></li>
+              <li><a href="contact.html">Book a conversation</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bar">
+          <div>© <span data-year></span> Caldwell Career Consulting</div>
+          <div>Executive Search • Global Talent Strategy • Career Advisory</div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
