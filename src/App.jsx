@@ -148,8 +148,7 @@ export default function App() {
           <div>
             <h4>Contact</h4>
             <ul>
-              <li><a href="mailto:jonathan@caldwellcareerconsulting.com">jonathan@caldwellcareerconsulting.com</a></li>
-              <li><a href="mailto:jonathan@caldwellcareerconsulting.com">Start a conversation ↗</a></li>
+              <li><a href="contact.html">Start a conversation ↗</a></li>
             </ul>
           </div>
         </div>
